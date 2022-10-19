@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Cdn</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" /> -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white">
+    <!-- -------------MARGIN, PADDING AND BACKGROUND --------------- -->
+    <div class="bg-gray-800 px-4 py-4"> 
+        <h1 class=" px-4 text-white text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, dolore?</h1>
+    </div>
+    <div class="m-2 p-4">
+        <p class=" px-4 tracking-wide leading-relaxed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quisquam velit ad nihil similique, voluptatem nisi laudantium quas rerum, repellat hic aliquam libero architecto cum vel amet consequatur aut distinctio reprehenderit! Pariatur, cum similique quo, eaque hic, deserunt nesciunt veniam laborum velit qui sapiente delectus totam et. Pariatur, eos sapiente?
+        </p>
+        <p class="italic py-8 px-4 bg-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis molestiae fuga blanditiis voluptate labore expedita, itaque error quae consequuntur ea aperiam. Animi omnis veniam nihil dolorum laborum ipsam iusto consequuntur nam fuga? Ipsam nemo alias nesciunt adipisci, provident tempora odit?
+        </p>
+        <p class="font-bold text-center pt-4">Lorem ipsum dolor sit amet. <span> Harmony</span></p>
+    </div>
+    <button class="bg-blue-400 p-4 uppercase font-semibold"> Enroll Now </button>
+
+
+    <!-- ----------------------------- BORDERS -------------------------------- -->
+    <div class="bg-gray-100 h-32 w-32 border-t-4 ml-4 mt-4">
+        <p> This container should have border top </p>
+    </div>
+    <div class="bg-gray-100 h-32 w-32 border-b-4 mt-4 ml-4">
+        <p> This container should have border bottom of 4px and </p>
+    </div>
+    <div class="bg-red-300 h-32 w-32 border-l-4 mt-4 ml-4">
+        <p> This container should have border left of 4px, </p>
+    </div>
+    <div class="bg-gray-100 h-32 w-32 border-r-4 mt-4 ml-4">
+        <p> This contianer shoul have border right of 4px, </p>
+    </div>
+
+    <!-- --------------------------- BORDER COLORS --------------------------- -->
+    <div class="w-40 h-40 bg-green-700 ml-4 mt-4 border-red-500 border-4 mb-4"> 
+
+    </div>
+
+    <!-- --------------------------- BORDER STYLES -------------------------- -->
+    <div class="w-40 h-40 border-dashed border-4 border-blue-700 py-4 px-4"> 
+        <h1 class="text-center"> The effect of dashed border</h1>
+    </div>
+    <div class="w-40 h-40 mt-4 mb-4 border-dotted border-4 border-pink-400 py-4 px-4"> 
+        <h1 class="text-center"> The effect of dotted border </h1>
+    </div>
+    <div class="w-40 h-40 mt-4 mb-4 bg-red-500 border-double border-8 border-blue-900"> 
+        <h1 class="text-center"> The effect of double borders  </h1>
+    </div>
+
+
+    <!-- -------------------------- BORDER RADIUS ---------------------------- -->
+    <div class="w-40 h-full bg-yellow-400 px-4 py-4 border-double border-8 border-black ml-4 mb-4 rounded-lg"> 
+        <h1> Yellow background with border radius</h1>
+    </div>
+    <div class="w-40 h-full bg-green-400 px-4 py-4 border-solid border-8 border-black ml-4 mb-4 rounded-tr-lg"> 
+        <h1> green background with border radius</h1>
+    </div>
+    <div class="h-40 w-40 bg-purple-500 px-4 py-8 mb-4 ml-8 border-8 border-pink-400 rounded-t-full"> 
+        <h1 class="text-center"> This should have two rounded corners </h1>
+    </div>
+    <div class="w-40 h-40 bg-pink-900 py-16 px-4 ml-8 border-8 border-orange-400 mb-4 rounded-tl-full"> 
+        <h4 class="text-white text-center"> This should look like a triangle </h4>
+    </div>
+    
+    <!-- -------------------------- ASSIGNMENT -------------------------------------- -->
+    <div class="ml-8 mt-8"> 
+        <button class="bg-blue-500 border-l-8 border-blue-900 px-8 font-medium py-4 text-white rounded-lg "> Submit</button>
+    </div>
+    <div class="ml-8 mt-8"> 
+        <button class="bg-red-600 text-white py-2 px-4 border-4 border-red-900 rounded-lg">Cancel </button>
+    </div>
+    <div class="ml-8 mt-4"> 
+        <button class="bg-indigo-400 text-indigo-800 border-b-8 border-indigo-800 py-3 px-8"> Save </button>
+    </div>
+    <div class=""> 
+        <button class="mt-8 mb-8 ml-4 border-solid px-16 py-8 bg-green-600 text-xl text-white border-green-900 border-8 rounded-lg"> Buy Now </button>
+    </div>
+    <div class="mt-8 ml-4 mb-4"> 
+        <button class="border-red-900 border-solid border-4 py-4 px-8 bg-red-400 font-mono uppercase rounded-lg"> Send Postcard </button>
+    </div>
+
+    <!-- -----------------------------------    FLEX LAYOUT  ------------------------------------ -->
+    <h1 class="text-center font-semibold text-2xl text-red-400"> WORKING WITH FLEX BOXES</h1>
+    <p class="text-center"> In the horizontal axis </p>
+    <div class="border-4 border-grey-400 py-4 flex my-8 justify-start"> 
+        <div class="  ml-4 bg-yellow-600 w-20 h-20">1</div>
+        <div class="  ml-4 bg-teal-700 h-20 w-20">2</div>
+        <div class="  ml-4 bg-red-700 h-20 w-20">3</div>
+    </div>
+    <div class="flex justify-center my-4 border-8 border-gray-300"> 
+        <div class="w-40 h-20 ml-4 border-8 border-dotted border-black bg-gray-700">1</div>
+        <div class="w-40 h-20 ml-4 border-8 border-solid border-black bg-red-400">2</div>
+        <div class="w-40 h-20 ml-4 border-8 border-dashed border-black bg-blue-400">3</div>
+    </div>
+    <div class="flex justify-end my-4"> 
+        <div class="w-40 h-20 border-black border-8 border-solid bg-red-400"></div>
+        <div class="w-40 h-20 border-black border-8 border-dashed bg-pink-500"></div>
+        <div class="w-40 h-20 border-black border-8 border-solid bg-green-400"></div>
+    </div>
+    <div class="flex justify-between px-4"> 
+        <div class="w-20 h-20 border-black border-4 bg-green-400"></div>
+        <div class="w-20 h-20 border-black border-4 bg-orange-400"></div>
+        <div class="w-20 h-20 border-black border-4 bg-yellow-400"></div>
+    </div>
+    <div class="my-8 flex justify-around"> 
+        <div class="h-35 w-20 bg-teal-600 border-solid border-4">
+            <p> <span class="uppercase"> Justify Content:</span> around </p>
+        </div>
+        <div class="h-35 w-20 bg-red-800 border-dotted border-4">
+            <p> <span class="uppercase"> Justify Content:</span> around </p>
+        </div>
+        <div class="h-35 w-20 bg-green-600 border-dashed border-4">
+            <p> <span class="uppercase"> Justify Content:</span> around </p>
+        </div>
+    </div>
+
+    <!-- ------------------- ALIGN-ITEMS ------------------------------- -->
+    <h1 class="text-center font-semibold text-2xl text-red-400"> WORKING WITH FLEX BOXES</h1>
+
+    <p class="text-center"> In the vertical axis </p>
+    <div class="border-4 flex px-4 border-gray-500 h-screen items-center justify-center gap-4"> 
+        <div class="bg-green-400 w-20 h-20">
+            <p> align-items: center</p>
+        </div>
+        <div class="bg-red-600 w-20 h-20">
+            <p> align-items: center</p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: center</p>
+        </div>
+    </div>
+    <div class="border-4 flex px-4 border-gray-500 h-screen items-end justify-center gap-4"> 
+        <div class="bg-green-400 w-20 h-20">
+            <p> align-items: flex-end </p>
+        </div>
+        <div class="bg-red-600 w-20 h-20">
+            <p> align-items: flex-end </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-end </p>
+        </div>
+    </div>
+    
+    <!-- ---------------------- FLEX DIRECTION ---------------------------------------- -->
+    <h1 class="text-center font-semibold text-2xl text-red-400"> FLEX WRAP </h1>
+    <div class="flex gap-4 flex-wrap"> 
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+        <div class="bg-orange-400 w-20 h-20">
+            <p> align-items: flex-wrap </p>
+        </div>
+    </div>
+    <!-- ---------------------------------------------- FLEXBOX CHANLLENGE ---------------------------------------------- -->
+    <div class="flex h-screen flex-wrap justify-between"> 
+        <div class="w-1/3 h-1/3 p-2">
+            <div class=" h-full flex items-center justify-center bg-teal-100">A</div>
+        </div>
+        <div class="w-1/3 h-1/3 p-2"> 
+            <div class=" h-full flex items-center justify-center bg-teal-200">B</div>
+        </div>
+        <div class="w-1/3 h-1/3 p-2"> 
+            <div class=" h-full flex items-center justify-center bg-teal-300">C</div>
+        </div>
+        <div class="w-1/3 h-1/3 p-2"> 
+            <div class=" h-full flex items-center justify-center bg-teal-400">D</div>
+        </div>
+        <div class="w-1/3 h-1/3 p-2"> 
+            <div class=" h-full flex items-center justify-center bg-teal-500">E</div>
+        </div>
+        <div class="w-1/3 h-1/3 p-2"> 
+            <div class=" h-full flex items-center justify-center bg-teal-600">F</div>
+        </div>
+        <div class="w-1/3 h-1/3 p-2"> 
+            <div class=" h-full flex items-center justify-center bg-teal-700">G</div>
+        </div>
+        <div class="w-1/3 h-1/3 p-2"> 
+            <div class=" h-full flex items-center justify-center bg-teal-800">H</div>
+        </div>
+        <div class="w-1/3 h-1/3 p-2">
+            <div class=" h-full flex items-center justify-center bg-teal-900">I</div>
+        </div>
+    </div>
+    <!-- ----------------------------------------- MEDIA QUERIES -----------------------------------------  -->
+    <div class="bg-blue-500 h-20 w-full sm:bg-red-500 md:bg-orange-500 lg:bg-yellow-500">
+        <h1> The background should change with respect to the width of the window. </h1>
+    </div>
+    <!-- ----------------------------------------- HOVER CLASSSES -----------------------------------------  -->
+    <button class="ml-4 mt-4 bg-blue-500 px-5 py-3 text-white rounded-sm hover:bg-blue-800 hover:text-blue-500 border-4"> Submit </button>
+    <!-- ----------------------------------------- FOCUS STATES AND  CLASSSES -----------------------------------------  -->
+    <div class="flex justify-center my-4"> 
+        <form>
+            <input 
+            class="border-2 focus:border-red-500 px-4 py-2 rounded-lg outline-none"
+            placeholder="johndoe@example.com"
+            />
+        </form>
+    </div>
+
+    <!-- ----------------------------------------- OTHER UTILITIES  -----------------------------------------  -->
+    <div class="bg-blue-500 h-40 w-40 p-4 text-white ml-40 mb-40 shadow-2xl"> 
+        <h1> We have 2 days to plan it.</h1>
+    </div>
+    <div class="bg-blue-500 h-40 w-40 p-4 text-white ml-40 mb-40"> 
+        <h1> We have 2 days to plan it.</h1>
+    </div>
+    <!-- ----------------------------------------- OPACITY -----------------------------------------  -->
+    <div class="border-red-500 border-2 h-40 w-40 ml-20 opacity-50 mb-20 p-4"> 
+        <h1 class="opacity-100 text-blue-500"> The opacity of this is 25 percent </h1>
+    </div>
+    <!-- ----------------------------------------- FOCUS STATES AND  CLASSSES -----------------------------------------  -->
+    <div class="flex justify-center my-10 gap-4"> 
+        <button class="bg-red-500 px-8 py-4 rounded-lg text-white cursor-pointer"> Cancel </button>
+        <button class="bg-green-500 px-8 py-4 rounded-lg text-white cursor-not-allowed"> Save </button>
+    </div>
+
+    <!-- ----------------------------------------- SELECT KEYWORD -----------------------------------------  -->
+    <div class="w-40 h-40 bg-red-500 text-white ml-40 mt-40 flex justify-center items-center p-4 rounded-lg m-4 select-all"> 
+        These text can't be selected
+    </div>
+
+    <!-- ----------------------------------------- SELECT KEYWORD -----------------------------------------  -->
+    <div class="w-40 h-40 bg-red-500 text-white ml-40 mt-40 flex justify-center items-center p-4 rounded-lg m-4 select-all not-sr-only"> 
+        These text can't be selected
+    </div>
+
+    <!-- ----------------------------------------- SELECT KEYWORD -----------------------------------------  -->
+    <div class="h-screen flex justify-center items-center"> 
+        <form class="border-2 border-black w-1/4 flex items-center justify-center flex-col h-64 py-40"> 
+            <label class="text-blue-800 font-bold text-lg my-2">Full Name </label>    
+            <input 
+                class="py-2 px-4 shadow my-2 rounded-lg text-gray-700 focus:bg-blue-100"
+                placeholder="Enter your full name "
+            />
+            <button class="my-2 text-lg bg-blue-900 text-white py-2 px-4 rounded-lg">Save</button>
+
+        </form>
+    </div>
+    <div class="w-screen h-screen bg-gray-700 flex justify-center items-center sm:bg-red-500 md:bg-blue-500"> 
+        <div class="bg-white rounded-lg w-[80%] select-none sm:w-1/3 md:w-1/4"> 
+            <div class="bg-gray-400 p-4 rounded-t-lg"> 
+                <h3 class="text-gray-700  font-medium"> The title of the card here </h3>
+            </div>
+            <div class="flex justify-between p-4 items-center"> 
+                <p class="bg-orange-500 text-white py-1 px-2 rounded-lg text-sm">Under Review</p>
+                <p class="py-1 px-2 text-sm font-semibold">May 14, 1988</p>
+            </div>
+            <div class="p-4">
+                <div  class=" bg-gray-400 p-4 rounded-lg text-gray-900"> 
+                    <p>Here is a short comment about this employee </p>
+                </div>
+            </div>
+            <div class="p-4 bg-gray-400 rounded-b-lg"> 
+                <p class="text-sm font-semibold opacity-50 mb-2">Employee </p>
+                <div class="flex items-center gap-4"> 
+                    <div class="bg-blue-500 w-12 h-12 flex justify-center items-center font-semibold text-white rounded-full">VG</div>
+                    <div>
+                        <h2 class="font-bold"> Victor Gonzalez</h2>
+                        <p class="opacity-50 text-sm font-semibold"> instructor </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
